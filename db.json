@@ -1,6 +1,5 @@
 {
-  "parentCategories": [
-    {
+  "parentCategories": [{
       "id": "1",
       "name": "Shopping"
     },
@@ -17,8 +16,7 @@
       "name": "Entertainment"
     }
   ],
-  "categories": [
-    {
+  "categories": [{
       "id": "1",
       "name": "Internet",
       "parentCategoryId": "2"
@@ -59,8 +57,7 @@
       "parentCategoryId": "5"
     }
   ],
-  "budgetCategories": [
-    {
+  "budgetCategories": [{
       "id": "1",
       "budget": 120.47,
       "categoryId": "1",
@@ -97,15 +94,12 @@
       "budgetId": "1"
     }
   ],
-  "budgets": [
-    {
-      "id": "1",
-      "name": "April",
-      "totalAmount": 2400
-    }
-  ],
-  "transactions": [
-    {
+  "budgets": [{
+    "id": "1",
+    "name": "April",
+    "totalAmount": 2400
+  }],
+  "transactions": [{
       "description": "New Phone",
       "categoryId": "2",
       "amount": 200,
