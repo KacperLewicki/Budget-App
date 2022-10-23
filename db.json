@@ -1,0 +1,125 @@
+{
+  "parentCategories": [
+    {
+      "id": "1",
+      "name": "Shopping"
+    },
+    {
+      "id": "2",
+      "name": "Bills and utilities"
+    },
+    {
+      "id": "4",
+      "name": "Education"
+    },
+    {
+      "id": "5",
+      "name": "Entertainment"
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "name": "Internet",
+      "parentCategoryId": "2"
+    },
+    {
+      "id": "2",
+      "name": "Mobile phone",
+      "parentCategoryId": "2"
+    },
+    {
+      "id": "3",
+      "name": "Rent",
+      "parentCategoryId": "2"
+    },
+    {
+      "id": "4",
+      "name": "Alcohol",
+      "parentCategoryId": "1"
+    },
+    {
+      "id": "5",
+      "name": "Grocery",
+      "parentCategoryId": "1"
+    },
+    {
+      "id": "6",
+      "name": "Chemistry",
+      "parentCategoryId": "1"
+    },
+    {
+      "id": "7",
+      "name": "Udemy course",
+      "parentCategoryId": "4"
+    },
+    {
+      "id": "8",
+      "name": "Restaurants and pubs",
+      "parentCategoryId": "5"
+    }
+  ],
+  "budgetCategories": [
+    {
+      "id": "1",
+      "budget": 120.47,
+      "categoryId": "1",
+      "budgetId": "1"
+    },
+    {
+      "id": "2",
+      "budget": 39.99,
+      "categoryId": "2",
+      "budgetId": "1"
+    },
+    {
+      "id": "3",
+      "budget": 723,
+      "categoryId": "3",
+      "budgetId": "1"
+    },
+    {
+      "id": "4",
+      "budget": 30,
+      "categoryId": "4",
+      "budgetId": "1"
+    },
+    {
+      "id": "5",
+      "budget": 450,
+      "categoryId": "5",
+      "budgetId": "1"
+    },
+    {
+      "id": "6",
+      "budget": 80,
+      "categoryId": "6",
+      "budgetId": "1"
+    }
+  ],
+  "budgets": [
+    {
+      "id": "1",
+      "name": "April",
+      "totalAmount": 2400
+    }
+  ],
+  "transactions": [
+    {
+      "description": "New Phone",
+      "categoryId": "2",
+      "amount": 200,
+      "date": "2022-10-23",
+      "budgetId": "1",
+      "id": 1
+    },
+    {
+      "description": "New Alcohol",
+      "amount": 30,
+      "categoryId": "4",
+      "date": "2022-10-27",
+      "budgetId": "1",
+      "id": 2
+    }
+  ]
+}
